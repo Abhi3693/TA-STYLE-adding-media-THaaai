@@ -95,6 +95,9 @@ i {
     color: #fff;
     margin-right: 20px;
 }
+section {
+    padding: 80px 0;
+}
 
 /* hero-section */
 
@@ -104,7 +107,7 @@ i {
     padding: 20px;
     position: absolute;
     top: 0;
-    left: 200px;
+    width: 100%;
 }
 .header-container {
     width: 1000px;
@@ -133,9 +136,6 @@ i {
     padding: 5px 10px;
     border: none;
 }
-.hero-section {
-    padding: 150px 0;
-}
 h1 {
     color: #fff;
     font-size: 36px;
@@ -162,7 +162,7 @@ h2 {
 /* introduce-section */
 
 .Let-us-introduce {
-    margin-top: 100px;
+    position: relative;
 }
 .introduce-text {
     width: 35%;
@@ -182,36 +182,15 @@ h2 {
     height: 6px;
     background-color: lightgray;
     margin-right: 2px;
-}
-.design {
-    width: 200px;
-    height: 3px;
-    margin: 5px 0 20px 0;   
-}
-.design-inn {
-    height: 100%;
-    background-color: rgb(54,54,54);
-}
-.design-inn-1 {
-    width: 85%;
-}
-.design-inn-2 {
-    width: 90%;
-}
-.design-inn-3 {
-    width: 75%;
-}
-.design-inn-4 {
-    width: 70%;
-}
-.design-text {
-    margin-right: 110px;
-}
-.design-text-content {
-    margin-right: 80px;
+    margin-bottom: 10px;
 }
 .introduce-image img {
-    width: 300px;
+    width: 30%;
+    height: 300px;
+}
+.about-image {
+    position: absolute;
+    bottom: 0;
 }
 .Let-us-introduce h2 {
     text-align: start;
@@ -220,7 +199,6 @@ h2 {
 /* Our-Blog-Section */
 
 .our-blog {
-    padding: 70px 0;
     background-color:rgb(238,238,239) ;
 }
 .our-blog h2 {
@@ -266,9 +244,6 @@ date {
 
 /* our work section */
 
-.our-work {
-    margin: 70px 0;
-}
 .work {
     width: 23%;
     margin-top: 20px;
@@ -281,7 +256,9 @@ date {
 
 .contact-us {
     background: linear-gradient(to right, rgb(12,116,230),rgb(126,243,100));
-    padding: 70px 0;
+}
+.contact-us h2 {
+    color: #fff;
 }
 .iframe-container iframe {
     border-radius: 50%;
